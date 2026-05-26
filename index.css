@@ -17,24 +17,18 @@ ul {
   min-width: 0;
 }
 .header .logo {
-  width:40%;
+  width:100%;
   min-width: 0;
-  max-width: 40%;
-}
-.header .flag {
-  width:20%;
+  max-width: 100%;
 }
 .logo {
+  width:100%;
   min-width: 0;
-}
-.flag {
-  float:right;
 }
 .menu a:link, .menu a:visited {
   color: green;
 }
 .content {
-  display: inline;
   width:100%;
   min-width: 0;
 }
