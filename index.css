@@ -37,12 +37,14 @@ h2 {
   width:100%;
 }
 .josta {
-  display: flex;
-  width: 100px;
+  flex: 1;
   background-image: url("./img/josta.jpeg");
   background-size: 100% auto; /* fit width */
   background-repeat: repeat-y; /* stack vertically */
   background-position: top center;
+}
+.contentcontainer {
+  flex: 7;
 }
 .container {
   display: flex;
