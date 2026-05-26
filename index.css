@@ -1,13 +1,13 @@
 body {
   background-color: #c7e1be;
   font-family: Arial, Helvetica, sans-serif;
-  font-size:1.4em;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 h1 {
-  font-size:1.3em;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 h2 {
-  font-size:1.2em;
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 .header {
   width:100%;
