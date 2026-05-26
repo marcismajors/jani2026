@@ -1,7 +1,7 @@
 body {
   background-color: #c7e1be;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 h1 {
   font-size: clamp(1.5rem, 5vw, 3rem);
@@ -45,6 +45,7 @@ h2 {
 }
 .contentcontainer {
   flex: 7;
+  min-width: 0;
 }
 .container {
   display: flex;
