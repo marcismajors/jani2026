@@ -23,8 +23,8 @@ ul {
   min-width: 0;
   max-width: 100%;
 }
-.menu a:link, .menu a:visited {
-  color: green;
+a:link, a:visited {
+  color: #789a1b;
 }
 .content {
   width:100%;
